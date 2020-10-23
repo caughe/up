@@ -1,0 +1,122 @@
+/* Opening Header */
+h1 {
+    text-align: center; 
+    color: red;	
+    margin-right: 140px;
+    font-size: 50px;
+}  
+
+.heading {
+    height: 200px;	
+}
+
+.middle {
+    height: 400px;
+}
+
+/* UNO Maverick logo */
+.logo {
+    width: 200px;
+    height: 200px;
+    float: left; 
+}
+
+/* Home button design */
+.home {
+    background-color: #D3D3D3; 
+    text-align: center;
+    height: 60px;
+    width: 25%;
+    font-size: 24px;
+    float: left;
+}
+
+/* News button design */
+.news {
+    background-color: #D3D3D3; 
+    text-align: center;
+    height: 60px;
+    width: 25%;
+    font-size: 24px;
+    float: left;
+}
+
+/* Account overview button design */
+.account {
+    background-color: #D3D3D3; 
+    text-align: center;
+    height: 60px;
+    width: 25%;
+    font-size: 24px;
+    float: left;
+}
+
+/* Search box design */
+.searchbox {
+    height: 50px;
+    width: 300px;
+    position: absolute;
+    top: 250px;
+    right: 540px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.points {
+    text-align: center;
+    font-size: 50px;
+    color: red;
+    position: relative;
+    top: 70px;
+}  
+
+.body {
+    height: 400px;
+}
+
+.article {
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+
+.members {
+    text-align: center;
+    position: relative;
+    font-size: 50px;
+    color: red;
+    top: 230px;
+}
+
+.newmems {
+    text-align: center;
+    position: relative;
+    top: 280px;
+}
+
+.p1 {
+    position: relative;
+    font-size: 28px;
+    text-align: center;
+    top: 600px;
+}
+
+.p2 {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    top: 600px;
+    left: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

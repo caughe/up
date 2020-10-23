@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+{% extends 'main_pages/base.html' %}
+{% load static %}
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}">
+	<title>Welcome To Mav Points</title>
+</head>
+
+<body>
+<div id="wrap">
+
+    <div class = "heading">
+	     <img src="{% static "images/logo.jpg" %}" alt="Mav Logo"/>
+	<h1>
+        Welcome To Mav Points
+    </h1>
+	    <button class = "customer_new">Sign Up</button>
+	    <button class = "promotions">Promotions</button>
+	    <button class = "rewards">Account Overview</button>
+        <button class = "contact">Rewards</button>
+        <button class = "rewards">Contact Us</button>
+     <label>
+         <input class = "searchbox" type="text" placeholder="Search">
+     </label>
+    </div>
+
+    <div>
+        <!--FORM NEEDS TO BE CODED TO WORK-->
+    <form>
+        <p>
+            <label>First Name
+                <input type="text" name="customer_name" required>
+            </label>
+        </p>
+
+        <p>
+            <label>Last Name
+                <input type="text" name="customer_name" required>
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Phone
+                <input type="tel" name="phone_number">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Email
+                <input type="email" name="email_address">
+            </label>
+        </p>
+    </form>
+    </div>
+
+    <div>
+        <img src="{% static "images/subscribe.png" %}" alt="Subscribe Button"/>
+        <!--NEEDS A LINK BUILT INTO THE PICTURE-->
+    </div>
+
+    <div class="main">
+  <p>
+    <h1><b>
+        Benefits to Membership
+    </b></h1>
+
+1) Stackable Points!
+      <br>
+2) Points can be gifted!
+      <br>
+3) No Expiration!
+
+      <br>
+      <br>
+            <p>
+                Use this space to provide users with more information about your offer. <br>
+                Consider it a follow-up to your headline and explain the benefits of your service or product
+            </p>
+
+</div>
+
+<footer>
+    <h2><b>
+        Copyright Group Two 2020.
+    </b></h2>
+</footer>
+
+</div>
+</body>
+</html>

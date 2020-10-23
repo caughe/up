@@ -1,0 +1,189 @@
+/* Opening Header */
+h1 {
+    text-align: center; 
+    color: red;	
+    margin-right: 140px;
+    font-size: 50px;
+}  
+
+/* Heading div tag */
+.heading {
+    height: 200px;
+	
+}
+
+.payments {
+    height: 400px;
+}
+
+/* UNO Maverick logo */
+.logo {
+    width: 200px;
+    height: 200px;
+    float: left; 
+}
+
+/* Home button design */
+.home {
+    background-color: #D3D3D3; 
+    text-align: center;
+    height: 60px;
+    width: 25%;
+    font-size: 24px;
+    float: left;
+}
+
+/* News button design */
+.news {
+    background-color: #D3D3D3; 
+    text-align: center;
+    height: 60px;
+    width: 25%;
+    font-size: 24px;
+    float: left;
+}
+
+/* Account overview button design */
+.account {
+    background-color: #D3D3D3; 
+    text-align: center;
+    height: 60px;
+    width: 25%;
+    font-size: 24px;
+    float: left;
+}
+
+/* Search box design */
+.searchbox {
+    height: 50px;
+    width: 300px;
+    position: absolute;
+    top: 250px;
+    right: 540px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+p {
+    position: relative;
+    font-size: 40px;
+    text-align: center;
+    top: 80px;
+    width: 50%;
+    left: 380px;
+}
+
+/* Twenty five points button */
+.twenty_five {
+    background-color: red;
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+
+/* Fifty points button */
+.fifty {
+    background-color: red;
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    margin-left: 375px;
+}
+
+/* Checkbox top left */
+.checkbox_one {
+    position: relative;
+    top: 75px;
+    right: 620px;
+}
+
+/*checkbox top right */
+.checkbox_two {
+    position: relative;
+    top: -75px;
+    right: -625px;
+    margin-left: 375px;	
+}
+
+/* 100 points button */
+.one_hundred {
+    position: relative;
+    background-color: red;
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    margin-left: 2px;
+    margin-top: 100px;
+}
+
+/* Custom points button */
+.custom {
+    position: relative;
+    background-color: red;
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    margin-left: 375px;
+    margin-top: 100px;
+}
+
+/* Checkbox bottom left */
+.checkbox_three {
+    position: relative;
+    top: 75px;
+    right: 620px;
+}
+
+/*checkbox bottom right */
+.checkbox_four {
+    position: relative;
+    bottom: 75px;
+    right: -625px;
+    margin-left: 375px;	
+}
+
+/* Pay button */
+.pay {
+    position: relative;
+    background-color: red;
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    margin-left: 280px;
+    margin-top: 100px;
+}
+
+/* Cancel button */
+.cancel {
+    position: absolute;
+    background-color: red;
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    margin-left: -150px;
+    margin-top: 200px;
+}
+
+
+.p1 {
+    position: relative;
+    font-size: 28px;
+    text-align: center;
+    top: 600px;
+}
+
+.p2 {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    top: 600px;
+    left: 950px;
+}
+
+
+
+
+
+

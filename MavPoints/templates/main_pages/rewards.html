@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href={% static "css/styles.css" %}>
+	<title>Rewards Page</title>
+</head>
+
+<body>
+
+<div class = "heading">
+	<img class = "logo" src = "../../static/images/logo.jpg" width="100" height="100" alt="">
+	<h1> Purchase Points </h1>
+	<button class = "home">Home</button>
+	<button class = "promotions">Promotions</button>
+	<button class = "account">Account Overview</button>
+    <label>
+        <input class = "searchbox" type="text" placeholder="Search">
+    </label>
+
+</div>
+
+<div class = "payments">
+	<p>Points can be purchased here in increments of 25, 50, 100, or you can even
+	set a custom amount up to 500.  Points are generally applied within 24 hours 
+	of purchase.</p>
+	<button class = "twenty_five">25 Points</button>	
+	<button class = "fifty">50 Points</button>
+    <label>
+        <input class = "checkbox_one" type="checkbox">
+    </label>
+    <label>
+        <input class = "checkbox_two" type="checkbox">
+    </label>
+    <button class = "one_hundred">100 Points</button>
+	<button class = "custom">Custom Points</button>
+    <label>
+        <input class = "checkbox_three" type="checkbox">
+    </label>
+    <label>
+        <input class = "checkbox_four" type="checkbox">
+    </label>
+    <button class = "pay">Pay</button>
+	<button class = "cancel">Cancel</button>
+</div>
+
+<div class = "bottom">
+	
+	<p class = "p1">Contact Us                 |                  Privacy Info</p>
+	<p class = "p2">Admin portal</p>
+
+</div>
+
+
+
+
+</body>
+
+
+
+</html>

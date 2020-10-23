@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+{% extends 'main_pages/base.html' %}
+{% load static %}
+
+{% block content %}
+    <body>
+        {% if user.is_authenticated %}
+           <div class="page-container">
+
+               <h2 class="top-menu">Hello {{ user.email }},</h2>
+               <p>Please choose from below options.</p>
+
+           </div>
+        {% endif %}
+        <div class="content container">
+           <div class="row">
+               <div class="col-md-12">
+                   <div class="links">
+                       <div class="row">
+                           <div class="col-md-3">
+                               <div class="thumbnail">
+                                   <img src="{% static "images/customer.jpg" %}" alt="customer"/>
+                                   <div class="caption">
+                                       <h2>Customer</h2>
+                                       <p>We see our success in our customers success </p>
+                                       <p><a class="btn btn-primary"
+                                             href="{% url 'employee_pages:view_customers' %}"
+                                             role="button">View Customers &raquo;</a></p>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+        </div>
+    </body>
+{% endblock %}
+</html>

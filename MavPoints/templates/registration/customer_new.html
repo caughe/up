@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+{% extends 'main_pages/base.html' %}
+{% block content %}
+    <h1>Create a new account</h1>
+    <form method="POST" class="customer-form">{% csrf_token %}
+          {{ form.as_p }}
+        <button type="submit" class="save btn btn-default">Save</button>
+    </form>
+    <a href="{% url 'MavPoints:login' %}">Back to login</a>
+{% endblock %}
+
+</html>
